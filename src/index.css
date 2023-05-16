@@ -5,6 +5,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
+  background-color: #EEF0F4;
+  color: #432000;
 }
 
 .container {
@@ -43,4 +45,27 @@ button {
 button:hover {
   cursor: pointer;
   background-color: #432000;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+ul li {
+  background-color: #FFFDF8;
+  font-size: 20px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 8px;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+ul li:hover {
+  background-color: #FFECC7;
+  cursor: pointer;
 }
