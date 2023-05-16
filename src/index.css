@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  max-width: 325px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.groceries-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+input,
+button {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+input {
+  color: #432000;
+  background-color: #DCE1EB;
+}
+
+button {
+  color: #FDFDFD;
+  background-color: #AC485A;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #432000;
+}
