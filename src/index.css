@@ -39,12 +39,12 @@ input {
 
 button {
   color: #FDFDFD;
-  background-color: #AC485A;
+  background-color: #56a453;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #432000;
+  background-color: #2a9a26;
 }
 
 ul {
@@ -68,4 +68,8 @@ ul li {
 ul li:hover {
   background-color: #FFECC7;
   cursor: pointer;
+}
+
+.cart-icon {
+  width: 30px;
 }
