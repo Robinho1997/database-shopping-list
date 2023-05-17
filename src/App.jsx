@@ -48,7 +48,7 @@ function App() {
       <img className='groceries-img' src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80' />
       <input onChange={(e) => setInputValueShoppingItem(e.target.value)} value={inputValueShoppingItem} type='text' placeholder='Brot' />
       <button onClick={addItemToDatabase}>
-        <img className='cart-icon' src='/public/trolley.png' />
+        <img className='cart-icon' src='/trolley.png' />
       </button>
       <ul className='shoppingList'>
         {items}
